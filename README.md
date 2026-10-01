@@ -1,6 +1,6 @@
 # Python Web Scraping
 
-A collection of practical web scraping projects built with **Python**, **Requests**, and **BeautifulSoup**.
+A collection of practical web scraping projects built with **Python**, **Requests**, **BeautifulSoup**, and **CSV**.
 
 This repository contains multiple scraping projects focused on extracting, processing, and storing structured data from different websites.
 
@@ -50,7 +50,7 @@ Scrapes visa information from VisaIndex based on the selected country.
 * Retrieves available countries
 * Searches for a specific country
 * Extracts visa-related information
-* Displays the scraped data in a structured format
+* Displays scraped data in a structured format
 
 **Technologies:**
 
@@ -62,7 +62,7 @@ Scrapes visa information from VisaIndex based on the selected country.
 
 ### 3. Books to Scrape
 
-A scraping project built using the training website **Books to Scrape**.
+A web scraping project built using the training website **Books to Scrape**.
 
 The scraper collects book information across multiple pages.
 
@@ -78,8 +78,8 @@ The scraper collects book information across multiple pages.
 * Scrapes multiple pages
 * Handles pagination
 * Collects structured book data
-* Scrapes up to 50 pages
-* Saves the collected data to CSV
+* Scrapes 50 pages
+* Saves the collected data to a CSV file
 
 **Technologies:**
 
@@ -116,6 +116,7 @@ python-web-scraping/
 ├── yallakora_scrapper/
 │   └── yallakora_scraper.py
 │
+├── requirements.txt
 └── README.md
 ```
 
@@ -133,11 +134,13 @@ Navigate to the repository:
 cd python-web-scraping
 ```
 
-Install the required libraries:
+Install all required dependencies:
 
 ```bash
-pip install requests beautifulsoup4 lxml
+pip install -r requirements.txt
 ```
+
+The required Python libraries are listed in `requirements.txt`.
 
 ## ▶️ Running the Projects
 
@@ -171,7 +174,7 @@ Depending on the project, scraped data can be:
 
 ## 🎯 Purpose
 
-The purpose of this repository is to practice and demonstrate practical **Python web scraping skills**, including:
+The purpose of this repository is to practice and demonstrate practical **Python Web Scraping** skills, including:
 
 1. Sending HTTP requests
 2. Parsing HTML pages
@@ -180,6 +183,11 @@ The purpose of this repository is to practice and demonstrate practical **Python
 5. Handling multiple pages
 6. Structuring scraped information
 7. Exporting data to CSV
+
+## 📦 Requirements
+
+The project dependencies are listed in [`requirements.txt`](requirements.txt).
+
 
 ## 👨‍💻 Author
 
